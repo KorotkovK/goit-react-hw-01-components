@@ -1,0 +1,50 @@
+/* Statistics.module.css */
+
+.statistics {
+    background-color: #f3f7fd; /* Фон секції статистики */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .titleWrapper {
+    margin: 30px 60px;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .statList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 23px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    
+  }
+  
+  .label {
+    flex: 1;
+    font-weight: bold;
+    color: #010101;
+    font-size: x-small;
+    margin-bottom: 10px;
+  }
+  
+  .percentage {
+    flex: 1;
+    color: #010101;
+    text-align: right;
+    font-size: x-large;
+  }
+  
