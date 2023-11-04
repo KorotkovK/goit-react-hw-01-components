@@ -1,5 +1,5 @@
 import React from 'react';
-import user from '/IT/goit-react-hw-01-components/src/data/user.json';
+import user from './data/user.json';
 import Profile from './Profile/Profile';
 import Statistics from './Statistics/Statistics';
 import StatsData from '/IT/goit-react-hw-01-components/src/data/data.json';
